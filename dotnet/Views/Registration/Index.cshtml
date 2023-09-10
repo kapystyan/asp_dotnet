@@ -1,0 +1,27 @@
+﻿@model RegistrationModel
+@{
+	ViewData["Title"] = "Registration";
+}
+
+<form method="post" asp-controller="Registration" asp-action="CheckData">
+		<div class="form-content">
+			<div class="form-content-login">
+				<label asp-for="_login"></label>
+				<input asp-for="_login" />
+				<span class="form-content-errormessage" asp-validation-for="_login"></span>
+			</div>
+			<div class="form-content-password">
+				<label asp-for="_password"></label>
+				<input asp-for="_password" />
+				<span class="form-content-errormessage" asp-validation-for="_password"></span>
+			</div>
+			<div class="form-content-email">
+				<label asp-for="_email"></label>
+				<input asp-for="_email" />
+				<span class="form-content-errormessage" asp-validation-for="_email"></span>
+			</div>
+			<div class ="form-content-button">
+				<input type="submit" value="send" />
+			</div>
+		</div>
+	</form>

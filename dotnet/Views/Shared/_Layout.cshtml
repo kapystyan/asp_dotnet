@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="button-panel">
+        <a href="/" class="button-panel-home">home</a>
+        <div class="button-panel-account">
+			<a href="/Login" class="button-panel-account-login">log</a>
+			<a href="/Registration" class="button-panel-account-reg">reg</a>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

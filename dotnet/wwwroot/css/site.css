@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+/*#region default tags*/
+body {
+    background: #cbcbcb;
+}
+
+header {
+    background: #ff9b20;
+}
+
+main {
+    margin: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*#endregion default tags*/
+
+/*#region home page class*/
+.button-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-panel-account {
+    padding: 2%;
+}
+
+.button-panel-home {
+    padding: 2%;
+}
+
+.button-panel-account-login {
+    border: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.button-panel-account-reg {
+    border: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+/*#endregion class tags*/
+
+/*#region form registration page*/
+.form-content {
+    margin: 0% 0% 0% 30%;
+}
+
+.form-content-login {
+    margin-bottom: 3%;
+}
+
+.form-content-password {
+    margin-bottom: 3%;
+}
+.form-content-email {
+    margin-bottom: 3%;
+}
+
+.form-content-button {
+    margin-bottom: 3%;
+    justify-content: flex-end;
+}
+
+.form-content-errormessage {
+    font-size: 30px;
+    color: #ff0000;
+}
+/*#endregion form login page*/
